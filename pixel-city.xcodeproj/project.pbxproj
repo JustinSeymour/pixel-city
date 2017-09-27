@@ -13,6 +13,7 @@
 		742AF4D11F7A592900540A47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742AF4CF1F7A592900540A47 /* Main.storyboard */; };
 		742AF4D31F7A592900540A47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 742AF4D21F7A592900540A47 /* Assets.xcassets */; };
 		742AF4D61F7A592900540A47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742AF4D41F7A592900540A47 /* LaunchScreen.storyboard */; };
+		74D5692B1F7B8D43007B3A6A /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5692A1F7B8D43007B3A6A /* DroppablePin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		742AF4D21F7A592900540A47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		742AF4D51F7A592900540A47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		742AF4D71F7A592900540A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74D5692A1F7B8D43007B3A6A /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		74E4B8541F7A5B1A00B2F051 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				74D5692A1F7B8D43007B3A6A /* DroppablePin.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				742AF4CE1F7A592900540A47 /* MapVC.swift in Sources */,
+				74D5692B1F7B8D43007B3A6A /* DroppablePin.swift in Sources */,
 				742AF4CC1F7A592900540A47 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
