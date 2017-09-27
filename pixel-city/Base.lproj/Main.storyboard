@@ -6,6 +6,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13156.2"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -47,7 +48,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZx-bd-Uwn">
-                                <rect key="frame" x="309" y="597" width="50" height="50"/>
+                                <rect key="frame" x="309" y="596" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="0Yr-fK-8VR"/>
                                     <constraint firstAttribute="height" constant="50" id="7Ve-Zl-bIg"/>
@@ -69,20 +70,24 @@
                         <constraints>
                             <constraint firstItem="V8E-9t-Azd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4bd-2e-1Ha"/>
                             <constraint firstItem="t3b-Y4-gjV" firstAttribute="top" secondItem="EmZ-BH-Id2" secondAttribute="bottom" id="ECr-Ie-FkG"/>
-                            <constraint firstAttribute="bottom" secondItem="t3b-Y4-gjV" secondAttribute="bottom" id="GAI-j9-opl"/>
+                            <constraint firstItem="V8E-9t-Azd" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="70" id="GAI-j9-opl"/>
+                            <constraint firstAttribute="bottom" secondItem="t3b-Y4-gjV" secondAttribute="bottom" id="Id1-Wc-ZiX"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yZx-bd-Uwn" secondAttribute="trailing" id="Rvy-O4-5wt"/>
+                            <constraint firstItem="t3b-Y4-gjV" firstAttribute="top" secondItem="yZx-bd-Uwn" secondAttribute="bottom" constant="20" id="Unm-f8-1a7"/>
                             <constraint firstItem="EmZ-BH-Id2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Xu6-l6-4i2"/>
                             <constraint firstAttribute="trailing" secondItem="t3b-Y4-gjV" secondAttribute="trailing" id="YCx-HJ-pSP"/>
                             <constraint firstAttribute="trailing" secondItem="EmZ-BH-Id2" secondAttribute="trailing" id="aVt-0s-qHZ"/>
                             <constraint firstItem="EmZ-BH-Id2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="mc0-Of-IgT"/>
                             <constraint firstAttribute="trailing" secondItem="V8E-9t-Azd" secondAttribute="trailing" id="n6V-Bp-laO"/>
                             <constraint firstItem="V8E-9t-Azd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="nh0-RF-HWv"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="yZx-bd-Uwn" secondAttribute="bottom" constant="20" id="ny4-jq-IOp"/>
                             <constraint firstItem="t3b-Y4-gjV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="riq-og-5UJ"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="z3u-UT-fbZ"/>
                     </view>
                     <connections>
                         <outlet property="mapView" destination="EmZ-BH-Id2" id="har-hL-lvJ"/>
+                        <outlet property="pullUpView" destination="t3b-Y4-gjV" id="ad3-nk-ZR8"/>
+                        <outlet property="pullUpViewHeightContsraint" destination="SEs-9R-gmf" id="T7q-jf-lFS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
