@@ -24,18 +24,8 @@ class MapVC: UIViewController {
     @IBAction func centerMapBtnWasPressed(_ sender: Any) {
         
     }
-    
-    extension MapVC: MKMapViewDelegate {
-        
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }
 
+extension MapVC: MKMapViewDelegate {
+    
+}
